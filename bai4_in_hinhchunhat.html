@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+        // for(w = 1; w <= 20; w++){
+        //     document.write(`*`);
+        // }
+        // for(i = 1; i <= 6;i++){
+        //     document.write(`*`);
+        //     for(h = 1; h <= 19; h++){
+        //     document.write(`&nbsp&nbsp`);
+        //     }
+        //     document.write(`*`);
+        //     document.write(`<br>`);
+        // }
+        // for(w = 1; w <= 21; w++){
+        //     document.write(`*`);
+        // }
+        
+        for(h = 0; h <= 6; h++){
+            if(h == 0 || h == 6){
+                for(w = 0; w <= 21; w++){
+                    document.write(`*`);
+                }
+            }else{
+                for(k = 0; k <= 21; k++){
+                    if(k == 0 || k == 21){
+                        document.write(`*`);
+                    }else
+                    document.write(`&nbsp&nbsp`)
+                }
+            }
+            document.write(`<br>`);
+        }
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let a = 0;
+    let b = 1;
+    let c;
+    document.write(`0 &nbsp 1`)
+    let n = parseInt(prompt(`Ban muon in bao nhieu so?`));
+    for(i = 2; i < n; i++){
+        c = a + b;
+        a = b;
+        b = c;
+        document.write(`&nbsp ${c}`);
+    }
+</script>
+</html>
